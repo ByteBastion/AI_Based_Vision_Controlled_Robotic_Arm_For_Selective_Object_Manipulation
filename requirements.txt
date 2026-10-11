@@ -1,0 +1,4 @@
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+flask>=2.3.0
+pyserial>=3.5
