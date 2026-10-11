@@ -142,25 +142,27 @@ cd AI_Based_Vision_Controlled_Robotic_Arm_For_Selective_Object_Manipulation
 pip install -r requirements.txt
 ```
 
-### 3️ Run the Application
+### 3️ Run the Web Interface
 
-```
-python src/app/app.py
+```bash
+# Optional: Set custom serial port (default: COM5)
+# set SERIAL_PORT=COM5 (Windows) or export SERIAL_PORT=/dev/ttyUSB0 (Linux)
+python AppProject/app.py
 ```
 
 ---
 
 ## 🔧 Arduino Setup
 
-1. Open:
+1. Open the Arduino sketch:
 
 ```
-arduino/robotic_arm/robotic_arm.ino
+Robotic_Arm_Arduino_Code/Robotic_Arm_Arduino_Code.ino
 ```
 
-2. Select your board (e.g., Arduino Mega)
+2. Select your board (e.g., Arduino Mega / Uno) in the Arduino IDE.
 
-3. Upload code via Arduino IDE
+3. Select your serial port and upload the sketch.
 
 ---
 
