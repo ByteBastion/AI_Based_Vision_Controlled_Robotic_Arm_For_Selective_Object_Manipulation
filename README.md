@@ -2,6 +2,8 @@
   <img src="robotic_arm_illustration.jpg" alt="Vision-Controlled Robotic Arm - Computer Vision and Hardware Interaction" width="100%">
   
   # AI-Based Vision-Controlled Robotic Arm for Selective Object Manipulation
+  ByteBastion Engineering Laboratory
+  Division: Mecha.exe
   
   <p align="center">
     <img src="https://img.shields.io/badge/Python-3.10+-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
@@ -178,15 +180,6 @@ python AppProject/app.py
 | **Phase 3** | `Phase_3_selective_detection/yolo_selective.py` | Restricts detection callbacks to user-defined class subsets (e.g., target cups). |
 | **Phase 4** | `Phase_4_coordinate_extraction/yolo_with_coordinates.py` | Calculates pixel centroid $(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2})$ and bounding box area. |
 | **Phase 5** | `Phase_5_mapping/yolo_with_mapping.py` | Transforms $(u, v)$ pixel space to physical $(X, Y)$ workspace millimeters. |
-
----
-
-## 👨‍💻 Authors & Contributors
-
-* **Vinayak Sharma** — Lead Architect (Computer Vision, System Integration & Firmware)  
-  *GitHub:* [@TechBastards](https://github.com/TechBastards) • *LinkedIn:* [vinayak-sharma](https://www.linkedin.com/in/vinayak-sharma-24a8aa384/)
-* **Harsh Singh** — Co-Contributor (Hardware Fabrication & Mechanical Design)  
-  *GitHub:* [@Harsh0012-ux](https://github.com/Harsh0012-ux) • *LinkedIn:* [harsh-singh](https://www.linkedin.com/in/harsh-singh-516611295/)
 
 ---
 
